@@ -1,0 +1,13 @@
+Arquitetura Utilizada: C4 Model
+
+Neste projeto integrador, foi adotada a arquitetura C4 Model como forma de organizar, documentar e visualizar o sistema desenvolvido, que contempla tanto o front-end quanto o back-end.
+
+O C4 Model é uma abordagem de modelagem arquitetural que divide a representação do sistema em quatro níveis principais: Contexto, Contêiner, Componentes e Código. Essa divisão permite uma compreensão progressiva do sistema, começando de uma visão mais ampla até chegar aos detalhes técnicos de implementação.
+
+A escolha dessa arquitetura se justifica pela sua clareza e organização. Diferentemente de outras abordagens mais complexas ou abstratas, o C4 Model facilita a comunicação entre desenvolvedores, professores e demais interessados no projeto, pois utiliza diagramas simples e objetivos.
+
+No contexto deste projeto, o nível de Contexto permite entender como o sistema interage com os usuários e outros sistemas externos. Já o nível de Contêiner ajuda a visualizar a separação entre front-end e back-end, evidenciando as tecnologias utilizadas e a comunicação entre elas. O nível de Componentes detalha as partes internas de cada camada, enquanto o nível de Código permite aprofundar na implementação quando necessário.
+
+Outro ponto importante é que o C4 Model contribui para a organização do desenvolvimento, ajudando a estruturar melhor o sistema e facilitando sua manutenção e evolução. Ele também auxilia na identificação de responsabilidades dentro do sistema, tornando o projeto mais escalável e compreensível.
+
+Portanto, a utilização do C4 Model neste projeto foi fundamental para garantir uma arquitetura bem definida, de fácil entendimento e alinhada com boas práticas de desenvolvimento de software.
