@@ -1,0 +1,38 @@
+Arquitetura em Camadas - Justificativa e Funcionamento
+
+Justificativa da Escolha:
+
+Optamos por utilizar a arquitetura em camadas no projeto integrador
+devido à sua simplicidade e facilidade de entendimento, especialmente
+para equipes em fase inicial de desenvolvimento. Essa arquitetura
+permite uma clara separação de responsabilidades, o que facilita a
+organização do código, manutenção e futuras melhorias.
+
+Além disso, o framework Spring Boot possui forte compatibilidade com
+esse modelo arquitetural, oferecendo suporte nativo para divisão em
+camadas como Controller, Service e Repository. Isso reduz a complexidade
+do desenvolvimento e aumenta a produtividade da equipe.
+
+Outro ponto importante é que a arquitetura em camadas é amplamente
+utilizada no mercado, tornando-se uma escolha segura e adequada tanto
+para aprendizado quanto para aplicações reais.
+
+Funcionamento da Arquitetura:
+
+A arquitetura em camadas organiza o sistema em diferentes níveis, onde
+cada camada possui uma responsabilidade específica:
+
+-   Camada de Apresentação (Controller): responsável por receber as
+    requisições do cliente e retornar as respostas.
+-   Camada de Negócio (Service): contém as regras de negócio da
+    aplicação.
+-   Camada de Acesso a Dados (Repository): responsável pela comunicação
+    com o banco de dados.
+-   Camada de Modelo (Model): representa as entidades e dados do
+    sistema.
+
+Cada camada se comunica com a camada imediatamente inferior, garantindo
+organização, baixo acoplamento e maior facilidade de manutenção.
+
+Essa estrutura torna o sistema mais organizado, escalável e fácil de
+entender, sendo ideal para o desenvolvimento do projeto integrador.
